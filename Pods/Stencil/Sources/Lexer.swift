@@ -9,7 +9,7 @@ struct Lexer {
     func strip() -> String {
       let start = string.index(string.startIndex, offsetBy: 2)
       let end = string.index(string.endIndex, offsetBy: -2)
-      return string[start..<end].trim(character: " ")
+        return String(string[start..<end]).trim(character: " ")
     }
 
     if string.hasPrefix("{{") {
@@ -147,6 +147,6 @@ extension String {
   func trim(character: Character) -> String {
     let first = findFirstNot(character: character) ?? startIndex
     let last = findLastNot(character: character) ?? endIndex
-    return self[first..<last]
+    return String(self[first..<last])
   }
 }

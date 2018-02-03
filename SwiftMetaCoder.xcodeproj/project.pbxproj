@@ -7,173 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AB49B2F08C480A70FE50F0D /* Pods_SwiftMetaCoderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB2BBC95FA55E2735F67EDC /* Pods_SwiftMetaCoderTests.framework */; };
-		0F4AB89ADA40E7D24CD8268F /* Pods_SwiftMetaCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB69349C0519125749B90D5 /* Pods_SwiftMetaCoder.framework */; };
-		89CAF61FC163C0968E761155 /* Pods_SwiftMetaCoderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F8FA7C6754A9871D749D8F /* Pods_SwiftMetaCoderUITests.framework */; };
-		AADD9F3E20264EF300DF7C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F3D20264EF300DF7C72 /* AppDelegate.swift */; };
-		AADD9F4020264EF300DF7C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD9F3F20264EF300DF7C72 /* Assets.xcassets */; };
-		AADD9F4320264EF300DF7C72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADD9F4120264EF300DF7C72 /* MainMenu.xib */; };
-		AADD9F4F20264EF300DF7C72 /* SwiftMetaCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F4E20264EF300DF7C72 /* SwiftMetaCoderTests.swift */; };
-		AADD9F5A20264EF300DF7C72 /* SwiftMetaCoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F5920264EF300DF7C72 /* SwiftMetaCoderUITests.swift */; };
+		AADD9F74202652F500DF7C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F73202652F500DF7C72 /* AppDelegate.swift */; };
+		AADD9F76202652F500DF7C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F75202652F500DF7C72 /* ViewController.swift */; };
+		AADD9F78202652F500DF7C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADD9F77202652F500DF7C72 /* Assets.xcassets */; };
+		AADD9F7B202652F600DF7C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADD9F79202652F600DF7C72 /* Main.storyboard */; };
+		AADD9F87202652F600DF7C72 /* SwiftMetaCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F86202652F600DF7C72 /* SwiftMetaCoderTests.swift */; };
+		AADD9F92202652F600DF7C72 /* SwiftMetaCoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADD9F91202652F600DF7C72 /* SwiftMetaCoderUITests.swift */; };
+		BFF53274D13B7DAB3EB9AE92 /* Pods_SwiftMetaCoderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB75E99512188AB52590540 /* Pods_SwiftMetaCoderTests.framework */; };
+		DC39377A3233B49339F6DA21 /* Pods_SwiftMetaCoderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D695E7177806D38B81EC02 /* Pods_SwiftMetaCoderUITests.framework */; };
+		E850D40902404E41497CD8CA /* Pods_SwiftMetaCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE0A7774D01E8068528A6F7 /* Pods_SwiftMetaCoder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AADD9F4B20264EF300DF7C72 /* PBXContainerItemProxy */ = {
+		AADD9F83202652F600DF7C72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AADD9F3220264EF300DF7C72 /* Project object */;
+			containerPortal = AADD9F68202652F500DF7C72 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AADD9F3920264EF300DF7C72;
+			remoteGlobalIDString = AADD9F6F202652F500DF7C72;
 			remoteInfo = SwiftMetaCoder;
 		};
-		AADD9F5620264EF300DF7C72 /* PBXContainerItemProxy */ = {
+		AADD9F8E202652F600DF7C72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AADD9F3220264EF300DF7C72 /* Project object */;
+			containerPortal = AADD9F68202652F500DF7C72 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AADD9F3920264EF300DF7C72;
+			remoteGlobalIDString = AADD9F6F202652F500DF7C72;
 			remoteInfo = SwiftMetaCoder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E7AAFB40FB178BE21215D43 /* Pods-SwiftMetaCoderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3F8F521CDECD1E3FBB4B316E /* Pods-SwiftMetaCoderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests.release.xcconfig"; sourceTree = "<group>"; };
-		42F8FA7C6754A9871D749D8F /* Pods_SwiftMetaCoderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB2BBC95FA55E2735F67EDC /* Pods_SwiftMetaCoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FD2ABADA22217E605DC5E65 /* Pods-SwiftMetaCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder.release.xcconfig"; sourceTree = "<group>"; };
-		6B40C19D7516821F1AD3AB5A /* Pods-SwiftMetaCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder.debug.xcconfig"; sourceTree = "<group>"; };
-		8FE94250D4F2CFEAFD76CEA9 /* Pods-SwiftMetaCoderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AADD9F3A20264EF300DF7C72 /* SwiftMetaCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMetaCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADD9F3D20264EF300DF7C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AADD9F3F20264EF300DF7C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AADD9F4220264EF300DF7C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		AADD9F4420264EF300DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AADD9F4520264EF300DF7C72 /* SwiftMetaCoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMetaCoder.entitlements; sourceTree = "<group>"; };
-		AADD9F4A20264EF300DF7C72 /* SwiftMetaCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMetaCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADD9F4E20264EF300DF7C72 /* SwiftMetaCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMetaCoderTests.swift; sourceTree = "<group>"; };
-		AADD9F5020264EF300DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AADD9F5520264EF300DF7C72 /* SwiftMetaCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMetaCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADD9F5920264EF300DF7C72 /* SwiftMetaCoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMetaCoderUITests.swift; sourceTree = "<group>"; };
-		AADD9F5B20264EF300DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEB69349C0519125749B90D5 /* Pods_SwiftMetaCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B832A1831DF4FF031E0E5DB6 /* Pods-SwiftMetaCoderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests.release.xcconfig"; sourceTree = "<group>"; };
+		06B9D6E488E517ADE320452C /* Pods-SwiftMetaCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder.debug.xcconfig"; sourceTree = "<group>"; };
+		08D695E7177806D38B81EC02 /* Pods_SwiftMetaCoderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947F7540E18BB2E073D1D0B4 /* Pods-SwiftMetaCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder.release.xcconfig"; sourceTree = "<group>"; };
+		9F7EB37FDFF354A65D8A80B7 /* Pods-SwiftMetaCoderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AADD9F70202652F500DF7C72 /* SwiftMetaCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMetaCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADD9F73202652F500DF7C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AADD9F75202652F500DF7C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AADD9F77202652F500DF7C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADD9F7A202652F600DF7C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADD9F7C202652F600DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADD9F7D202652F600DF7C72 /* SwiftMetaCoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMetaCoder.entitlements; sourceTree = "<group>"; };
+		AADD9F82202652F600DF7C72 /* SwiftMetaCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMetaCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADD9F86202652F600DF7C72 /* SwiftMetaCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMetaCoderTests.swift; sourceTree = "<group>"; };
+		AADD9F88202652F600DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADD9F8D202652F600DF7C72 /* SwiftMetaCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMetaCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADD9F91202652F600DF7C72 /* SwiftMetaCoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMetaCoderUITests.swift; sourceTree = "<group>"; };
+		AADD9F93202652F600DF7C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36C0FA30E9A40933292CAB1 /* Pods-SwiftMetaCoderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE0A7774D01E8068528A6F7 /* Pods_SwiftMetaCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0C401E5EBFE78D8DBBF5AB /* Pods-SwiftMetaCoderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D478D6166874B8A98733E44C /* Pods-SwiftMetaCoderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMetaCoderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB75E99512188AB52590540 /* Pods_SwiftMetaCoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMetaCoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AADD9F3720264EF300DF7C72 /* Frameworks */ = {
+		AADD9F6D202652F500DF7C72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4AB89ADA40E7D24CD8268F /* Pods_SwiftMetaCoder.framework in Frameworks */,
+				E850D40902404E41497CD8CA /* Pods_SwiftMetaCoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F4720264EF300DF7C72 /* Frameworks */ = {
+		AADD9F7F202652F600DF7C72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AB49B2F08C480A70FE50F0D /* Pods_SwiftMetaCoderTests.framework in Frameworks */,
+				BFF53274D13B7DAB3EB9AE92 /* Pods_SwiftMetaCoderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F5220264EF300DF7C72 /* Frameworks */ = {
+		AADD9F8A202652F600DF7C72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CAF61FC163C0968E761155 /* Pods_SwiftMetaCoderUITests.framework in Frameworks */,
+				DC39377A3233B49339F6DA21 /* Pods_SwiftMetaCoderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A6E6A87958A9DA93ECDCC21 /* Frameworks */ = {
+		4EEB59705C469F9CDF3CBEDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEB69349C0519125749B90D5 /* Pods_SwiftMetaCoder.framework */,
-				5EB2BBC95FA55E2735F67EDC /* Pods_SwiftMetaCoderTests.framework */,
-				42F8FA7C6754A9871D749D8F /* Pods_SwiftMetaCoderUITests.framework */,
+				BCE0A7774D01E8068528A6F7 /* Pods_SwiftMetaCoder.framework */,
+				EBB75E99512188AB52590540 /* Pods_SwiftMetaCoderTests.framework */,
+				08D695E7177806D38B81EC02 /* Pods_SwiftMetaCoderUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5BCD03BBE0490DD800CDED0 /* Pods */ = {
+		AADD9F67202652F500DF7C72 = {
 			isa = PBXGroup;
 			children = (
-				6B40C19D7516821F1AD3AB5A /* Pods-SwiftMetaCoder.debug.xcconfig */,
-				5FD2ABADA22217E605DC5E65 /* Pods-SwiftMetaCoder.release.xcconfig */,
-				8FE94250D4F2CFEAFD76CEA9 /* Pods-SwiftMetaCoderTests.debug.xcconfig */,
-				B832A1831DF4FF031E0E5DB6 /* Pods-SwiftMetaCoderTests.release.xcconfig */,
-				2E7AAFB40FB178BE21215D43 /* Pods-SwiftMetaCoderUITests.debug.xcconfig */,
-				3F8F521CDECD1E3FBB4B316E /* Pods-SwiftMetaCoderUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AADD9F3120264EF300DF7C72 = {
-			isa = PBXGroup;
-			children = (
-				AADD9F3C20264EF300DF7C72 /* SwiftMetaCoder */,
-				AADD9F4D20264EF300DF7C72 /* SwiftMetaCoderTests */,
-				AADD9F5820264EF300DF7C72 /* SwiftMetaCoderUITests */,
-				AADD9F3B20264EF300DF7C72 /* Products */,
-				A5BCD03BBE0490DD800CDED0 /* Pods */,
-				3A6E6A87958A9DA93ECDCC21 /* Frameworks */,
+				AADD9F72202652F500DF7C72 /* SwiftMetaCoder */,
+				AADD9F85202652F600DF7C72 /* SwiftMetaCoderTests */,
+				AADD9F90202652F600DF7C72 /* SwiftMetaCoderUITests */,
+				AADD9F71202652F500DF7C72 /* Products */,
+				ECC7F4DA1257E995EFFB39B4 /* Pods */,
+				4EEB59705C469F9CDF3CBEDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AADD9F3B20264EF300DF7C72 /* Products */ = {
+		AADD9F71202652F500DF7C72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AADD9F3A20264EF300DF7C72 /* SwiftMetaCoder.app */,
-				AADD9F4A20264EF300DF7C72 /* SwiftMetaCoderTests.xctest */,
-				AADD9F5520264EF300DF7C72 /* SwiftMetaCoderUITests.xctest */,
+				AADD9F70202652F500DF7C72 /* SwiftMetaCoder.app */,
+				AADD9F82202652F600DF7C72 /* SwiftMetaCoderTests.xctest */,
+				AADD9F8D202652F600DF7C72 /* SwiftMetaCoderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AADD9F3C20264EF300DF7C72 /* SwiftMetaCoder */ = {
+		AADD9F72202652F500DF7C72 /* SwiftMetaCoder */ = {
 			isa = PBXGroup;
 			children = (
-				AADD9F3D20264EF300DF7C72 /* AppDelegate.swift */,
-				AADD9F3F20264EF300DF7C72 /* Assets.xcassets */,
-				AADD9F4120264EF300DF7C72 /* MainMenu.xib */,
-				AADD9F4420264EF300DF7C72 /* Info.plist */,
-				AADD9F4520264EF300DF7C72 /* SwiftMetaCoder.entitlements */,
+				AADD9F73202652F500DF7C72 /* AppDelegate.swift */,
+				AADD9F75202652F500DF7C72 /* ViewController.swift */,
+				AADD9F77202652F500DF7C72 /* Assets.xcassets */,
+				AADD9F79202652F600DF7C72 /* Main.storyboard */,
+				AADD9F7C202652F600DF7C72 /* Info.plist */,
+				AADD9F7D202652F600DF7C72 /* SwiftMetaCoder.entitlements */,
 			);
 			path = SwiftMetaCoder;
 			sourceTree = "<group>";
 		};
-		AADD9F4D20264EF300DF7C72 /* SwiftMetaCoderTests */ = {
+		AADD9F85202652F600DF7C72 /* SwiftMetaCoderTests */ = {
 			isa = PBXGroup;
 			children = (
-				AADD9F4E20264EF300DF7C72 /* SwiftMetaCoderTests.swift */,
-				AADD9F5020264EF300DF7C72 /* Info.plist */,
+				AADD9F86202652F600DF7C72 /* SwiftMetaCoderTests.swift */,
+				AADD9F88202652F600DF7C72 /* Info.plist */,
 			);
 			path = SwiftMetaCoderTests;
 			sourceTree = "<group>";
 		};
-		AADD9F5820264EF300DF7C72 /* SwiftMetaCoderUITests */ = {
+		AADD9F90202652F600DF7C72 /* SwiftMetaCoderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AADD9F5920264EF300DF7C72 /* SwiftMetaCoderUITests.swift */,
-				AADD9F5B20264EF300DF7C72 /* Info.plist */,
+				AADD9F91202652F600DF7C72 /* SwiftMetaCoderUITests.swift */,
+				AADD9F93202652F600DF7C72 /* Info.plist */,
 			);
 			path = SwiftMetaCoderUITests;
+			sourceTree = "<group>";
+		};
+		ECC7F4DA1257E995EFFB39B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06B9D6E488E517ADE320452C /* Pods-SwiftMetaCoder.debug.xcconfig */,
+				947F7540E18BB2E073D1D0B4 /* Pods-SwiftMetaCoder.release.xcconfig */,
+				9F7EB37FDFF354A65D8A80B7 /* Pods-SwiftMetaCoderTests.debug.xcconfig */,
+				B36C0FA30E9A40933292CAB1 /* Pods-SwiftMetaCoderTests.release.xcconfig */,
+				D478D6166874B8A98733E44C /* Pods-SwiftMetaCoderUITests.debug.xcconfig */,
+				BE0C401E5EBFE78D8DBBF5AB /* Pods-SwiftMetaCoderUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AADD9F3920264EF300DF7C72 /* SwiftMetaCoder */ = {
+		AADD9F6F202652F500DF7C72 /* SwiftMetaCoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AADD9F5E20264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoder" */;
+			buildConfigurationList = AADD9F96202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoder" */;
 			buildPhases = (
-				0A6F0B167F1DCFA1232D5182 /* [CP] Check Pods Manifest.lock */,
-				AADD9F3620264EF300DF7C72 /* Sources */,
-				AADD9F3720264EF300DF7C72 /* Frameworks */,
-				AADD9F3820264EF300DF7C72 /* Resources */,
-				C5977C7ED25B42B8B6900B3B /* [CP] Embed Pods Frameworks */,
-				171A940288935CF5833FDCE5 /* [CP] Copy Pods Resources */,
+				F1A29A346772236D502BB6E0 /* [CP] Check Pods Manifest.lock */,
+				AADD9F6C202652F500DF7C72 /* Sources */,
+				AADD9F6D202652F500DF7C72 /* Frameworks */,
+				AADD9F6E202652F500DF7C72 /* Resources */,
+				4F6FE5365D98958EFADD0B30 /* [CP] Embed Pods Frameworks */,
+				F08DE874998303AD1B78B60A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,78 +184,78 @@
 			);
 			name = SwiftMetaCoder;
 			productName = SwiftMetaCoder;
-			productReference = AADD9F3A20264EF300DF7C72 /* SwiftMetaCoder.app */;
+			productReference = AADD9F70202652F500DF7C72 /* SwiftMetaCoder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AADD9F4920264EF300DF7C72 /* SwiftMetaCoderTests */ = {
+		AADD9F81202652F600DF7C72 /* SwiftMetaCoderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AADD9F6120264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderTests" */;
+			buildConfigurationList = AADD9F99202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderTests" */;
 			buildPhases = (
-				A9F7CDC90E9A3A099559F522 /* [CP] Check Pods Manifest.lock */,
-				AADD9F4620264EF300DF7C72 /* Sources */,
-				AADD9F4720264EF300DF7C72 /* Frameworks */,
-				AADD9F4820264EF300DF7C72 /* Resources */,
-				7712AEB82041F3E6512E4877 /* [CP] Embed Pods Frameworks */,
-				AEA01F6FF6791C6657903F34 /* [CP] Copy Pods Resources */,
+				A19F77CC0D27C42D8D40941A /* [CP] Check Pods Manifest.lock */,
+				AADD9F7E202652F600DF7C72 /* Sources */,
+				AADD9F7F202652F600DF7C72 /* Frameworks */,
+				AADD9F80202652F600DF7C72 /* Resources */,
+				B142FF62A90E8D3D4247357E /* [CP] Embed Pods Frameworks */,
+				0A88A95ED0D94552AD03DDCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AADD9F4C20264EF300DF7C72 /* PBXTargetDependency */,
+				AADD9F84202652F600DF7C72 /* PBXTargetDependency */,
 			);
 			name = SwiftMetaCoderTests;
 			productName = SwiftMetaCoderTests;
-			productReference = AADD9F4A20264EF300DF7C72 /* SwiftMetaCoderTests.xctest */;
+			productReference = AADD9F82202652F600DF7C72 /* SwiftMetaCoderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AADD9F5420264EF300DF7C72 /* SwiftMetaCoderUITests */ = {
+		AADD9F8C202652F600DF7C72 /* SwiftMetaCoderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AADD9F6420264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderUITests" */;
+			buildConfigurationList = AADD9F9C202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderUITests" */;
 			buildPhases = (
-				F360B9685C845A6998CF8BC5 /* [CP] Check Pods Manifest.lock */,
-				AADD9F5120264EF300DF7C72 /* Sources */,
-				AADD9F5220264EF300DF7C72 /* Frameworks */,
-				AADD9F5320264EF300DF7C72 /* Resources */,
-				0DFF7CF3F44CFC781463E86B /* [CP] Embed Pods Frameworks */,
-				76BED5CD3D8653488798B4A6 /* [CP] Copy Pods Resources */,
+				F4A7467317D1A93AB3C54F5C /* [CP] Check Pods Manifest.lock */,
+				AADD9F89202652F600DF7C72 /* Sources */,
+				AADD9F8A202652F600DF7C72 /* Frameworks */,
+				AADD9F8B202652F600DF7C72 /* Resources */,
+				273D2375C35385C67C842DB6 /* [CP] Embed Pods Frameworks */,
+				927FFA929DAAF5B44457DDEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AADD9F5720264EF300DF7C72 /* PBXTargetDependency */,
+				AADD9F8F202652F600DF7C72 /* PBXTargetDependency */,
 			);
 			name = SwiftMetaCoderUITests;
 			productName = SwiftMetaCoderUITests;
-			productReference = AADD9F5520264EF300DF7C72 /* SwiftMetaCoderUITests.xctest */;
+			productReference = AADD9F8D202652F600DF7C72 /* SwiftMetaCoderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AADD9F3220264EF300DF7C72 /* Project object */ = {
+		AADD9F68202652F500DF7C72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Shaheen Ghiassy";
 				TargetAttributes = {
-					AADD9F3920264EF300DF7C72 = {
+					AADD9F6F202652F500DF7C72 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					AADD9F4920264EF300DF7C72 = {
+					AADD9F81202652F600DF7C72 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AADD9F3920264EF300DF7C72;
+						TestTargetID = AADD9F6F202652F500DF7C72;
 					};
-					AADD9F5420264EF300DF7C72 = {
+					AADD9F8C202652F600DF7C72 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = AADD9F3920264EF300DF7C72;
+						TestTargetID = AADD9F6F202652F500DF7C72;
 					};
 				};
 			};
-			buildConfigurationList = AADD9F3520264EF300DF7C72 /* Build configuration list for PBXProject "SwiftMetaCoder" */;
+			buildConfigurationList = AADD9F6B202652F500DF7C72 /* Build configuration list for PBXProject "SwiftMetaCoder" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -260,36 +263,36 @@
 				en,
 				Base,
 			);
-			mainGroup = AADD9F3120264EF300DF7C72;
-			productRefGroup = AADD9F3B20264EF300DF7C72 /* Products */;
+			mainGroup = AADD9F67202652F500DF7C72;
+			productRefGroup = AADD9F71202652F500DF7C72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AADD9F3920264EF300DF7C72 /* SwiftMetaCoder */,
-				AADD9F4920264EF300DF7C72 /* SwiftMetaCoderTests */,
-				AADD9F5420264EF300DF7C72 /* SwiftMetaCoderUITests */,
+				AADD9F6F202652F500DF7C72 /* SwiftMetaCoder */,
+				AADD9F81202652F600DF7C72 /* SwiftMetaCoderTests */,
+				AADD9F8C202652F600DF7C72 /* SwiftMetaCoderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AADD9F3820264EF300DF7C72 /* Resources */ = {
+		AADD9F6E202652F500DF7C72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADD9F4020264EF300DF7C72 /* Assets.xcassets in Resources */,
-				AADD9F4320264EF300DF7C72 /* MainMenu.xib in Resources */,
+				AADD9F78202652F500DF7C72 /* Assets.xcassets in Resources */,
+				AADD9F7B202652F600DF7C72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F4820264EF300DF7C72 /* Resources */ = {
+		AADD9F80202652F600DF7C72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F5320264EF300DF7C72 /* Resources */ = {
+		AADD9F8B202652F600DF7C72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,103 +302,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A6F0B167F1DCFA1232D5182 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftMetaCoder-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0DFF7CF3F44CFC781463E86B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		171A940288935CF5833FDCE5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76BED5CD3D8653488798B4A6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7712AEB82041F3E6512E4877 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9F7CDC90E9A3A099559F522 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftMetaCoderTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEA01F6FF6791C6657903F34 /* [CP] Copy Pods Resources */ = {
+		0A88A95ED0D94552AD03DDCD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +317,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5977C7ED25B42B8B6900B3B /* [CP] Embed Pods Frameworks */ = {
+		273D2375C35385C67C842DB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6FE5365D98958EFADD0B30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -432,7 +354,88 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F360B9685C845A6998CF8BC5 /* [CP] Check Pods Manifest.lock */ = {
+		927FFA929DAAF5B44457DDEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderUITests/Pods-SwiftMetaCoderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A19F77CC0D27C42D8D40941A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMetaCoderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B142FF62A90E8D3D4247357E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoderTests/Pods-SwiftMetaCoderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F08DE874998303AD1B78B60A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMetaCoder/Pods-SwiftMetaCoder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A29A346772236D502BB6E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMetaCoder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A7467317D1A93AB3C54F5C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,58 +456,59 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AADD9F3620264EF300DF7C72 /* Sources */ = {
+		AADD9F6C202652F500DF7C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADD9F3E20264EF300DF7C72 /* AppDelegate.swift in Sources */,
+				AADD9F76202652F500DF7C72 /* ViewController.swift in Sources */,
+				AADD9F74202652F500DF7C72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F4620264EF300DF7C72 /* Sources */ = {
+		AADD9F7E202652F600DF7C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADD9F4F20264EF300DF7C72 /* SwiftMetaCoderTests.swift in Sources */,
+				AADD9F87202652F600DF7C72 /* SwiftMetaCoderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AADD9F5120264EF300DF7C72 /* Sources */ = {
+		AADD9F89202652F600DF7C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADD9F5A20264EF300DF7C72 /* SwiftMetaCoderUITests.swift in Sources */,
+				AADD9F92202652F600DF7C72 /* SwiftMetaCoderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AADD9F4C20264EF300DF7C72 /* PBXTargetDependency */ = {
+		AADD9F84202652F600DF7C72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AADD9F3920264EF300DF7C72 /* SwiftMetaCoder */;
-			targetProxy = AADD9F4B20264EF300DF7C72 /* PBXContainerItemProxy */;
+			target = AADD9F6F202652F500DF7C72 /* SwiftMetaCoder */;
+			targetProxy = AADD9F83202652F600DF7C72 /* PBXContainerItemProxy */;
 		};
-		AADD9F5720264EF300DF7C72 /* PBXTargetDependency */ = {
+		AADD9F8F202652F600DF7C72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AADD9F3920264EF300DF7C72 /* SwiftMetaCoder */;
-			targetProxy = AADD9F5620264EF300DF7C72 /* PBXContainerItemProxy */;
+			target = AADD9F6F202652F500DF7C72 /* SwiftMetaCoder */;
+			targetProxy = AADD9F8E202652F600DF7C72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AADD9F4120264EF300DF7C72 /* MainMenu.xib */ = {
+		AADD9F79202652F600DF7C72 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AADD9F4220264EF300DF7C72 /* Base */,
+				AADD9F7A202652F600DF7C72 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AADD9F5C20264EF300DF7C72 /* Debug */ = {
+		AADD9F94202652F600DF7C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -561,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		AADD9F5D20264EF300DF7C72 /* Release */ = {
+		AADD9F95202652F600DF7C72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -610,9 +614,9 @@
 			};
 			name = Release;
 		};
-		AADD9F5F20264EF300DF7C72 /* Debug */ = {
+		AADD9F97202652F600DF7C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B40C19D7516821F1AD3AB5A /* Pods-SwiftMetaCoder.debug.xcconfig */;
+			baseConfigurationReference = 06B9D6E488E517ADE320452C /* Pods-SwiftMetaCoder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SwiftMetaCoder/SwiftMetaCoder.entitlements;
@@ -627,9 +631,9 @@
 			};
 			name = Debug;
 		};
-		AADD9F6020264EF300DF7C72 /* Release */ = {
+		AADD9F98202652F600DF7C72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FD2ABADA22217E605DC5E65 /* Pods-SwiftMetaCoder.release.xcconfig */;
+			baseConfigurationReference = 947F7540E18BB2E073D1D0B4 /* Pods-SwiftMetaCoder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SwiftMetaCoder/SwiftMetaCoder.entitlements;
@@ -644,9 +648,9 @@
 			};
 			name = Release;
 		};
-		AADD9F6220264EF300DF7C72 /* Debug */ = {
+		AADD9F9A202652F600DF7C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FE94250D4F2CFEAFD76CEA9 /* Pods-SwiftMetaCoderTests.debug.xcconfig */;
+			baseConfigurationReference = 9F7EB37FDFF354A65D8A80B7 /* Pods-SwiftMetaCoderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,9 +666,9 @@
 			};
 			name = Debug;
 		};
-		AADD9F6320264EF300DF7C72 /* Release */ = {
+		AADD9F9B202652F600DF7C72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B832A1831DF4FF031E0E5DB6 /* Pods-SwiftMetaCoderTests.release.xcconfig */;
+			baseConfigurationReference = B36C0FA30E9A40933292CAB1 /* Pods-SwiftMetaCoderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -680,9 +684,9 @@
 			};
 			name = Release;
 		};
-		AADD9F6520264EF300DF7C72 /* Debug */ = {
+		AADD9F9D202652F600DF7C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7AAFB40FB178BE21215D43 /* Pods-SwiftMetaCoderUITests.debug.xcconfig */;
+			baseConfigurationReference = D478D6166874B8A98733E44C /* Pods-SwiftMetaCoderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -697,9 +701,9 @@
 			};
 			name = Debug;
 		};
-		AADD9F6620264EF300DF7C72 /* Release */ = {
+		AADD9F9E202652F600DF7C72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F8F521CDECD1E3FBB4B316E /* Pods-SwiftMetaCoderUITests.release.xcconfig */;
+			baseConfigurationReference = BE0C401E5EBFE78D8DBBF5AB /* Pods-SwiftMetaCoderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -717,43 +721,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AADD9F3520264EF300DF7C72 /* Build configuration list for PBXProject "SwiftMetaCoder" */ = {
+		AADD9F6B202652F500DF7C72 /* Build configuration list for PBXProject "SwiftMetaCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AADD9F5C20264EF300DF7C72 /* Debug */,
-				AADD9F5D20264EF300DF7C72 /* Release */,
+				AADD9F94202652F600DF7C72 /* Debug */,
+				AADD9F95202652F600DF7C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AADD9F5E20264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoder" */ = {
+		AADD9F96202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AADD9F5F20264EF300DF7C72 /* Debug */,
-				AADD9F6020264EF300DF7C72 /* Release */,
+				AADD9F97202652F600DF7C72 /* Debug */,
+				AADD9F98202652F600DF7C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AADD9F6120264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderTests" */ = {
+		AADD9F99202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AADD9F6220264EF300DF7C72 /* Debug */,
-				AADD9F6320264EF300DF7C72 /* Release */,
+				AADD9F9A202652F600DF7C72 /* Debug */,
+				AADD9F9B202652F600DF7C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AADD9F6420264EF300DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderUITests" */ = {
+		AADD9F9C202652F600DF7C72 /* Build configuration list for PBXNativeTarget "SwiftMetaCoderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AADD9F6520264EF300DF7C72 /* Debug */,
-				AADD9F6620264EF300DF7C72 /* Release */,
+				AADD9F9D202652F600DF7C72 /* Debug */,
+				AADD9F9E202652F600DF7C72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AADD9F3220264EF300DF7C72 /* Project object */;
+	rootObject = AADD9F68202652F500DF7C72 /* Project object */;
 }
