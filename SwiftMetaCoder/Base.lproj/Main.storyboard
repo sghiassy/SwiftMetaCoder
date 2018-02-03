@@ -712,16 +712,16 @@
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHe-N9-PCj">
                                 <rect key="frame" x="20" y="64" width="156" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" controlSize="mini" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="[&quot;name&quot;: &quot;Shaheen&quot;]" placeholderString="Swift Text Here" drawsBackground="YES" id="DOb-UK-S4s">
+                                <textFieldCell key="cell" controlSize="mini" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="{&quot;name&quot;: &quot;Shaheen&quot;}" placeholderString="Swift Text Here" drawsBackground="YES" id="DOb-UK-S4s">
                                     <font key="font" metaFont="miniSystem"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZL-ET-a2B">
-                                <rect key="frame" x="20" y="262" width="37" height="11"/>
+                                <rect key="frame" x="20" y="262" width="52" height="11"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Input" id="cbl-15-KBK">
+                                <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="JSON Data" id="cbl-15-KBK">
                                     <font key="font" metaFont="miniSystem"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -739,7 +739,7 @@
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEM-XK-dFW">
-                                <rect key="frame" x="366" y="64" width="156" height="184"/>
+                                <rect key="frame" x="364" y="64" width="160" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" controlSize="mini" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" placeholderString="Output Rendered here" id="JdF-Zv-nLc">
                                     <font key="font" metaFont="miniSystem"/>
@@ -748,9 +748,9 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xep-N8-V5N">
-                                <rect key="frame" x="191" y="262" width="45" height="11"/>
+                                <rect key="frame" x="191" y="262" width="77" height="11"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Template" id="2Lh-NL-PRm">
+                                <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Stencil Template" id="2Lh-NL-PRm">
                                     <font key="font" metaFont="miniSystem"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
