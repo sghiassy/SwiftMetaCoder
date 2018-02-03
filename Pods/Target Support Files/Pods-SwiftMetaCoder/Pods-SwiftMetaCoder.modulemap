@@ -1,0 +1,6 @@
+framework module Pods_SwiftMetaCoder {
+  umbrella header "Pods-SwiftMetaCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
