@@ -6,6 +6,8 @@ target 'SwiftMetaCoder' do
   use_frameworks!
 
   # Pods for SwiftMetaCoder
+  pod 'Sourcery', '0.10.1'
+  pod 'StencilSwiftKit', '~> 2.3.0'
 
   target 'SwiftMetaCoderTests' do
     inherit! :search_paths

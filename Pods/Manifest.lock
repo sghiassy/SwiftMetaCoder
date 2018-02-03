@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 1fd86989216f7890b452a7a67a40e80a41b8e236
+PODS:
+  - PathKit (0.8.0)
+  - Sourcery (0.10.1)
+  - Stencil (0.9.0):
+    - PathKit (~> 0.8.0)
+  - StencilSwiftKit (2.3.0):
+    - Stencil (~> 0.9.0)
+
+DEPENDENCIES:
+  - Sourcery (= 0.10.1)
+  - StencilSwiftKit (~> 2.3.0)
+
+SPEC CHECKSUMS:
+  PathKit: dcab05d701474011aae0e40cf892298a831f63d6
+  Sourcery: ac71ac4d490f62fd381a9f3b558f3093d91bddd5
+  Stencil: 510f0b0518a366b67b6a9c5085a0399741b6d2f9
+  StencilSwiftKit: bdbc7e5eeb2c6aaa00b44864a48eb8f1f5970e05
+
+PODFILE CHECKSUM: 27daec41e1991565653360b6f918787587d57ad2
 
 COCOAPODS: 1.4.0
