@@ -10,6 +10,11 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var inputTextField: NSTextField!
+    @IBOutlet weak var templateTextField: NSTextField!
+    @IBOutlet weak var outputTextField: NSTextField!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +29,9 @@ class ViewController: NSViewController {
 
 
     @IBAction func userPressedDone(_ sender: NSButton) {
-        print("done")
+        print("Input Field: \(inputTextField.stringValue)")
+        print("Template Field: \(templateTextField.stringValue)")
+        print("Output Field: \(outputTextField.stringValue)")
     }
 
 }
