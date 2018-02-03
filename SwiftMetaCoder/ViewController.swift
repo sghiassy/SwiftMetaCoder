@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import Stencil
+import StencilSwiftKit
 
 class ViewController: NSViewController {
 
@@ -31,7 +33,11 @@ class ViewController: NSViewController {
     @IBAction func userPressedDone(_ sender: NSButton) {
         print("Input Field: \(inputTextField.stringValue)")
         print("Template Field: \(templateTextField.stringValue)")
-        print("Output Field: \(outputTextField.stringValue)")
+        let environment = Environment()
+
+        let context = ["name": "Shaheen"]
+        let output = try? environment.renderTemplate(string: "Hello {{ name }}", context: context)
+        print("Output Field: \(output ?? "fail")")
     }
 
 }
